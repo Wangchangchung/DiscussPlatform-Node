@@ -56,7 +56,7 @@ app.get('/post/:oid', routes.showUser);
 //显示所有用户
 app.get('/userlist', routes.showUserList);
 
-
+//监听 3000端口
 app.listen(3000);
 
 
